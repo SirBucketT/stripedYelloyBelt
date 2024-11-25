@@ -11,6 +11,7 @@ class Program
 
         Character warrior = new Character("Warrior", random.Next(0, 101), primaryAction: (targets) =>
         {
+            Console.WriteLine("warrior attacks");
             if (targets.Any())
             {
                  var target = targets.First();
@@ -21,7 +22,7 @@ class Program
 
         Character healer = new Character("Healer", random1.Next(0, 101), primaryAction: (targets) =>
         {
-             Console.WriteLine("Healer McHeals!");
+             Console.WriteLine("Healer Heals!");
              if (targets.Any())
              {
                  var target = targets.OrderBy(t => t.Health).First();
@@ -39,6 +40,12 @@ class Program
             warrior.Health = random2.Next(70, 100);
             healer.Health = random3.Next(30, 50);
         }
+        
+        //for some reason the code generated health of over 6000 for both warrior and healer even though random shouldn't allow that scope. So this is here to restrict health from going above 100
+        if (warrior.Health > 100 && healer.Health > 100) {
+            warrior.Health = 99;
+            healer.Health = 49;
+        }
 
         List<Character> characters = new List<Character> { warrior, healer };
 
@@ -51,10 +58,11 @@ class Program
             foreach (Character character in characters)
             {
                 if (character.Health <= 0)
-                {
-                    Console.WriteLine($"{character.Name} is dead!");
+                { 
                     charactersAreAlive = false;
-                    //character.Health = 0;
+                    character.Health = 0;
+                    Console.WriteLine($"{character.Name} is dead!");
+                   
                     break;
                 }
                 if (character.Health < 50)
@@ -72,10 +80,10 @@ class Program
                 Console.WriteLine($"Warrior HP: {warrior.Health}");
             }
         }
-
-        var warriors = characters.Where(t => t.Name != "Warrior").ToList();
-        var healers = warriors.Where(z => z.Name != "Healer").ToList();
         return 0;
+        
+        //var warriors = characters.Where(t => t.Name != "Warrior").ToList();
+        //var healers = warriors.Where(z => z.Name != "Healer").ToList();
         // while (warriors.Any(c => c.Health > 0))
         // {
         //     foreach (Character character in warriors)
