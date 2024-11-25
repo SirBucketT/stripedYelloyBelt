@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Level 1 Striped Yellow Belt", "Level 1 Striped Yellow Belt\Level 1 Striped Yellow Belt.csproj", "{9F1D88C8-668A-4510-9F0D-6538BA89B330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Level 2 stripped yellow belt", "..\Level 2 stripped yellow belt\Level 2 stripped yellow belt.csproj", "{86CA25C5-4528-470F-A8F3-A0AA3430476F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9F1D88C8-668A-4510-9F0D-6538BA89B330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1D88C8-668A-4510-9F0D-6538BA89B330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1D88C8-668A-4510-9F0D-6538BA89B330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CA25C5-4528-470F-A8F3-A0AA3430476F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CA25C5-4528-470F-A8F3-A0AA3430476F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CA25C5-4528-470F-A8F3-A0AA3430476F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CA25C5-4528-470F-A8F3-A0AA3430476F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
