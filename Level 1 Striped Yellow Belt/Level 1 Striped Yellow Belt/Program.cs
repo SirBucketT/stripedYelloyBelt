@@ -7,7 +7,7 @@ class Program
         Random random = new Random();
         Random random1 = new Random();
 
-        Character warrior = new Character("Warrior", random.Next(0, 51), primaryAction: (targets) =>
+        Character warrior = new Character("Warrior", random.Next(40, 51), primaryAction: (targets) =>
         {
             Console.WriteLine("Warrior McWars!");
             if (targets.Any())
@@ -16,10 +16,9 @@ class Program
                 target.Health -= 20; 
                 Console.WriteLine($"{target.Name} takes 20 damage! Health is now {target.Health}.");
             }
-
         });
 
-        Character healer = new Character("Healer", random1.Next(0, 51), primaryAction: (targets) =>
+        Character healer = new Character("Healer", random1.Next(40, 51), primaryAction: (targets) =>
         {
             Console.WriteLine("Healer McHeals!");
             if (targets.Any())
@@ -29,7 +28,6 @@ class Program
                 Console.WriteLine($"{target.Name} is healed by 16! Health is now {target.Health}.");
             }
         });
-            
         
         List<Character> characters = new List<Character> { warrior, healer };
         
@@ -42,7 +40,19 @@ class Program
             {
                 break;
             }
-            character.PrimaryAction(character.First); 
+
+            if (character.Health < 50)
+            {
+                Console.WriteLine($"{character.Name} prioritize attacking using McWars!");
+                target = target.Where(t => t.Name != "Healer").ToList();
+            }
+
+            if (character.Name == "Healer")
+            {
+                Console.WriteLine($"{character.Name} prioritize McHeals!");
+            }
+            character.PrimaryAction(characters.First()); 
+            
         }
     }
 }
