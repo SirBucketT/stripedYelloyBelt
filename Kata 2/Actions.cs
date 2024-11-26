@@ -13,7 +13,7 @@ public class Actions
             if (targets.Any())
             {
                 var target = targets.OrderBy(t => t.Health).First();
-                target.Health -= 10;
+                target.Health -= 100;
                 Console.WriteLine($"Arin Attacks {target.Name}.");
                 target.HealthChanged += OnHealthChanged;
             }
@@ -24,7 +24,7 @@ public class Actions
             if (targets.Any())
             {
                 var target = targets.OrderBy(t => t.Health).First();
-                target.Health -= 10;
+                target.Health -= 100;
                 Console.WriteLine($"Dalia attacks {target.Name}.");
                 target.HealthChanged += OnHealthChanged;
             }
