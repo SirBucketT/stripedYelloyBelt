@@ -4,6 +4,19 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Hello, World!");
+        Character Arin = new Character("Arin", 100, characterAction: (targets) =>
+        {
+            Console.WriteLine("Arin Attacks");
+        });
+        Character Dalia = new Character("Dalia", 100, characterAction: (targets) =>
+        {
+            Console.WriteLine("Dalia Attacks");
+            if (targets.Any())
+            {
+                
+            }
+        });
+        
+        List<Character> characters = new List<Character> { Arin, Dalia };
     }
 }
