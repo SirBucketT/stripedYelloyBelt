@@ -12,3 +12,17 @@
 /Users/omega/Documents/Projects/strippedYelloyBelt/Kata 3/obj/Debug/net7.0/Kata 3.pdb
 /Users/omega/Documents/Projects/strippedYelloyBelt/Kata 3/obj/Debug/net7.0/Kata 3.genruntimeconfig.cache
 /Users/omega/Documents/Projects/strippedYelloyBelt/Kata 3/obj/Debug/net7.0/ref/Kata 3.dll
+C:\Projects\strippedYelloyBelt\Kata 3\bin\Debug\net7.0\Kata 3.exe
+C:\Projects\strippedYelloyBelt\Kata 3\bin\Debug\net7.0\Kata 3.deps.json
+C:\Projects\strippedYelloyBelt\Kata 3\bin\Debug\net7.0\Kata 3.runtimeconfig.json
+C:\Projects\strippedYelloyBelt\Kata 3\bin\Debug\net7.0\Kata 3.dll
+C:\Projects\strippedYelloyBelt\Kata 3\bin\Debug\net7.0\Kata 3.pdb
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\Kata 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\Kata 3.AssemblyInfoInputs.cache
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\Kata 3.AssemblyInfo.cs
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\Kata 3.csproj.CoreCompileInputs.cache
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\Kata 3.dll
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\refint\Kata 3.dll
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\Kata 3.pdb
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\Kata 3.genruntimeconfig.cache
+C:\Projects\strippedYelloyBelt\Kata 3\obj\Debug\net7.0\ref\Kata 3.dll
