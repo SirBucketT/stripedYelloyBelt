@@ -10,7 +10,6 @@ public class Actions
         int rdn3 = rnd2.Next(0, 1000);
         Character arin = new Character("Arin", rdn1, characterAction: (targets) =>
         {
-            Console.WriteLine("Arin Attacks");
             if (targets.Any())
             {
                 var target = targets.OrderBy(t => t.Health).First();
@@ -22,7 +21,6 @@ public class Actions
 
         Character dalia = new Character("Dalia", rdn3, characterAction: (targets) =>
         {
-            Console.WriteLine("Dalia Attacks");
             if (targets.Any())
             {
                 var target = targets.OrderBy(t => t.Health).First();
@@ -34,8 +32,11 @@ public class Actions
 
         static void OnHealthChanged(int health)
         {
-            Console.WriteLine($"health changed to {health}");
+            Console.WriteLine($"HP changed to {health}");
         }
+
+        Console.WriteLine($"Arin HP: {arin.Health}");
+        Console.WriteLine($"Dalia HP: {dalia.Health}");
 
         List<Character> characters = new List<Character> { arin, dalia };
         arin.CharacterAction(characters);

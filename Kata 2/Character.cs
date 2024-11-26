@@ -24,17 +24,3 @@ public class Character
         HealthChanged?.Invoke(Health);
     }
 }
-
-class Game
-{
-    public Game()
-    {
-        Character player = new("", 0, characters => { });
-        player.HealthChanged += OnHealthChanged;
-    }
-
-    public void OnHealthChanged(int health)
-    {
-        Console.WriteLine($"OnHealthChanged {health}");
-    }
-}
