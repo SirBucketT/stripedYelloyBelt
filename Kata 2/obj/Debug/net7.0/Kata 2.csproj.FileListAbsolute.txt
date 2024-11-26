@@ -1,0 +1,14 @@
+C:\Projects\strippedYelloyBelt\Kata 2\bin\Debug\net7.0\Kata 2.exe
+C:\Projects\strippedYelloyBelt\Kata 2\bin\Debug\net7.0\Kata 2.deps.json
+C:\Projects\strippedYelloyBelt\Kata 2\bin\Debug\net7.0\Kata 2.runtimeconfig.json
+C:\Projects\strippedYelloyBelt\Kata 2\bin\Debug\net7.0\Kata 2.dll
+C:\Projects\strippedYelloyBelt\Kata 2\bin\Debug\net7.0\Kata 2.pdb
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\Kata 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\Kata 2.AssemblyInfoInputs.cache
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\Kata 2.AssemblyInfo.cs
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\Kata 2.csproj.CoreCompileInputs.cache
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\Kata 2.dll
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\refint\Kata 2.dll
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\Kata 2.pdb
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\Kata 2.genruntimeconfig.cache
+C:\Projects\strippedYelloyBelt\Kata 2\obj\Debug\net7.0\ref\Kata 2.dll
