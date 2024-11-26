@@ -1,9 +1,5 @@
 namespace Kata_3;
 
-public class Abilities
-{
-    
-}
 public class AttackAbility : IAbility
 {
     public string Name { get; set; }
