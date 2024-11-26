@@ -17,10 +17,4 @@ public class Character
         CharacterAction = characterAction;
         HealthChanged?.Invoke(health);
     }
-
-    public void TakeDamage(int damage)
-    {
-        Health -= damage;
-        HealthChanged?.Invoke(Health);
-    }
 }
