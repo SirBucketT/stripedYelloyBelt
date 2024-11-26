@@ -8,19 +8,20 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\theodor\\.nuget\\packages\\": {}
+    "/Users/omega/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\strippedYelloyBelt\\Kata 3\\Kata 3.csproj",
+      "projectUniqueName": "/Users/omega/Documents/Projects/strippedYelloyBelt/Kata 3/Kata 3.csproj",
       "projectName": "Kata 3",
-      "projectPath": "C:\\Projects\\strippedYelloyBelt\\Kata 3\\Kata 3.csproj",
-      "packagesPath": "C:\\Users\\theodor\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\strippedYelloyBelt\\Kata 3\\obj\\",
+      "projectPath": "/Users/omega/Documents/Projects/strippedYelloyBelt/Kata 3/Kata 3.csproj",
+      "packagesPath": "/Users/omega/.nuget/packages/",
+      "outputPath": "/Users/omega/Documents/Projects/strippedYelloyBelt/Kata 3/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\theodor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/omega/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -59,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\theodor\\.dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/omega/.dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
       }
     }
   }
