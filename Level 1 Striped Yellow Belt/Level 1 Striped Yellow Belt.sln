@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata 1", "Kata 1\Kata 1.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata 2", "..\Kata 2\Kata 2.csproj", "{86CA25C5-4528-470F-A8F3-A0AA3430476F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata 3", "..\Kata 3\Kata 3.csproj", "{5943DF67-0871-4449-94E9-CC463B443206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{86CA25C5-4528-470F-A8F3-A0AA3430476F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86CA25C5-4528-470F-A8F3-A0AA3430476F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86CA25C5-4528-470F-A8F3-A0AA3430476F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5943DF67-0871-4449-94E9-CC463B443206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5943DF67-0871-4449-94E9-CC463B443206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5943DF67-0871-4449-94E9-CC463B443206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5943DF67-0871-4449-94E9-CC463B443206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
