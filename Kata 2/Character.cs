@@ -8,8 +8,6 @@ public class Character
     public Action<List<Character>> CharacterAction { get; }
     public event Action<int> HealthChanged;
     
-    //public delegate void CharacterAction(Character target, int amount);
-   // public delegate HealthChanged();
     public Character(string name, int health, Action<List<Character>> characterAction)
     {
         Name = name;
