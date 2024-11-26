@@ -14,7 +14,7 @@ class Program
             Console.WriteLine("warrior attacks");
             if (targets.Any())
             {
-                 var target = targets.First();
+                 var target = targets.OrderBy(t => t.Health).First();
                  target.Health -= 20;
                  Console.WriteLine($"{target.Name} takes 20 damage! Health is now {target.Health}.");
             }
@@ -51,8 +51,8 @@ class Program
 
         Console.WriteLine($"{healer.Name} HP: {healer.Health}");
         Console.WriteLine($"{warrior.Name} HP: {warrior.Health}");
-        
-        bool charactersAreAlive = characters.Any();
+        // = characters.Any()
+        bool charactersAreAlive = true;
         while (charactersAreAlive)
         {
             foreach (Character character in characters)

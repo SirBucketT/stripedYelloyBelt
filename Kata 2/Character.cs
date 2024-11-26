@@ -3,8 +3,8 @@ namespace Kata2;
 public class Character
 {
     public string Name {get;}
-    public int Health {get;}
-    
+    public int Health { get; set; }
+
     public Action<List<Character>> CharacterAction { get; }
     
     //public delegate void CharacterAction(Character target, int amount);

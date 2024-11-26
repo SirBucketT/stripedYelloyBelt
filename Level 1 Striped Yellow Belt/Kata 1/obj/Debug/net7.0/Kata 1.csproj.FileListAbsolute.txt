@@ -1,0 +1,14 @@
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\bin\Debug\net7.0\Kata 1.exe
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\bin\Debug\net7.0\Kata 1.deps.json
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\bin\Debug\net7.0\Kata 1.runtimeconfig.json
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\bin\Debug\net7.0\Kata 1.dll
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\bin\Debug\net7.0\Kata 1.pdb
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\Kata 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\Kata 1.AssemblyInfoInputs.cache
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\Kata 1.AssemblyInfo.cs
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\Kata 1.csproj.CoreCompileInputs.cache
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\Kata 1.dll
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\refint\Kata 1.dll
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\Kata 1.pdb
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\Kata 1.genruntimeconfig.cache
+C:\Projects\strippedYelloyBelt\Level 1 Striped Yellow Belt\Kata 1\obj\Debug\net7.0\ref\Kata 1.dll
