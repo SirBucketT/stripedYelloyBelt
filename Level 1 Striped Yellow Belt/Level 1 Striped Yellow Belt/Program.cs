@@ -81,46 +81,5 @@ class Program
             }
         }
         return 0;
-        
-        //var warriors = characters.Where(t => t.Name != "Warrior").ToList();
-        //var healers = warriors.Where(z => z.Name != "Healer").ToList();
-        // while (warriors.Any(c => c.Health > 0))
-        // {
-        //     foreach (Character character in warriors)
-        //     {
-        //         if (character.Health <= 0)
-        //         {
-        //             Console.WriteLine($"{character.Name} is dead!");
-        //             break;
-        //         }
-        //         
-        //         if (character.Health < 50)
-        //         {
-        //             warrior = character;
-        //             Console.WriteLine($"{character.Name} prioritize attacking!");
-        //             character.Health -= 20;
-        //
-        //         }
-        //         
-        //         if (character.Name == "Healer")
-        //         {
-        //             healer = character;
-        //             Console.WriteLine($"{character.Name} prioritize McHeals!");
-        //             character.Health += 15;
-        //         }
-        //
-        //         character.PrimaryAction(warriors.First());
-        //
-        //         if (warriors.Count(c => c.Health > 0) <= 1)
-        //         {
-        //             Console.WriteLine("Loop condition met");
-        //             break;
-        //         }
-        //         foreach (var c in warriors)
-        //         {
-        //             Console.WriteLine($"{c.Name} HP: {c.Health}");
-        //         }
-        //     }
-        // }
     }
 }    
