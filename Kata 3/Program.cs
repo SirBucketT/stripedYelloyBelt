@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        var fireball = new AttackAbility("Fireball", "Deals 50 fire damage.");
-        var healingTouch = new HealAbility("Healing Touch", "Restores 30 health.");
+        var fireball = new AttackAbility("Hellfire", "Hellfire's inferno deals over 9000 damage, you got fried.");
+        var healingTouch = new HealAbility("Revival bead", "Revives deeply fried human.");
         
         var attackAbilityContainer = new AbilityContainer<AttackAbility>();
         var healAbilityContainer = new AbilityContainer<HealAbility>();
