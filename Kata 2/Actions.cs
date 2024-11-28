@@ -15,7 +15,6 @@ public class Actions
                 var target = targets.OrderBy(t => t.Health).First();
                 target.Health -= 100;
                 Console.WriteLine($"Arin Attacks {target.Name}.");
-                target.HealthChanged += OnHealthChanged;
             }
         });
 
@@ -26,7 +25,6 @@ public class Actions
                 var target = targets.OrderBy(t => t.Health).First();
                 target.Health -= 100;
                 Console.WriteLine($"Dalia attacks {target.Name}.");
-                target.HealthChanged += OnHealthChanged;
             }
         });
 
@@ -40,9 +38,11 @@ public class Actions
 
         List<Character> characters = new List<Character> { arin, dalia };
         arin.CharacterAction(characters);
+        arin.HealthChanged += OnHealthChanged;
         OnHealthChanged(arin.Health);
         
         dalia.CharacterAction(characters);
+        dalia.HealthChanged += OnHealthChanged;
         OnHealthChanged(dalia.Health);
     }
 }
