@@ -13,6 +13,11 @@ public class Character
         Name = name;
         Health = health;
         CharacterAction = characterAction;
+    }
+
+    public void TakeDamage(int damage, int health)
+    {
+        Health -= damage;
         HealthChanged?.Invoke(health);
     }
 }
